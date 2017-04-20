@@ -60,13 +60,15 @@ function myBucketDocumentLoop (sensor_id, bucketsize) {
 	}
 }
 
+var runtime = 60000 * 1;
 /*
 Simple Schema Test
 */
+print("simple schema start test");
 db.IoTSimpletestCollection.remove({});
 var simplecnt = 0;
 // run simple schema test for 1min
-var ms = new Date().getTime() + 60000;
+var ms = new Date().getTime() + runtime;
 while (new Date() < ms){
 		mySimpleDocumentLoop(Math.floor((Math.random() * 100) + 1));
 		simplecnt++;
@@ -76,38 +78,42 @@ print("simple schema count: " + simplecnt);
 /*
 Bucket Schema Test
 */
+print("50 bucket schema start test");
 db.IoTBucketCollection.remove({});
 var bckcnt = 0;
 // run bucket test for 1 min
-var ms = new Date().getTime() + 60000;
+var ms = new Date().getTime() + runtime;
 while (new Date() < ms){
 		myBucketDocumentLoop(Math.floor((Math.random() * 100) + 1), 50);
 		bckcnt++;
 }
 print("50 bucket inserts: " + bckcnt);
 
+print("100 bucket schema start test");
 db.IoTBucketCollection.remove({});
 var bckcnt = 0;
 // run bucket test for 1 min
-var ms = new Date().getTime() + 60000;
+var ms = new Date().getTime() + runtime;
 while (new Date() < ms){
 		myBucketDocumentLoop(Math.floor((Math.random() * 100) + 1), 100);
 		bckcnt++;
 }
 print("100 bucket inserts: " + bckcnt);
 
+print("200 bucket schema start test");
 db.IoTBucketCollection.remove({});
 bckcnt = 0;
-var ms = new Date().getTime() + 60000;
+var ms = new Date().getTime() + runtime;
 while (new Date() < ms){
 		myBucketDocumentLoop(Math.floor((Math.random() * 100) + 1), 200);
 		bckcnt++;
 }
 print("200 bucket inserts: " + bckcnt);
 
+print("300 bucket schema start test");
 db.IoTBucketCollection.remove({});
 bckcnt = 0;
-var ms = new Date().getTime() + 60000;
+var ms = new Date().getTime() + runtime;
 while (new Date() < ms){
 		myBucketDocumentLoop(Math.floor((Math.random() * 100) + 1), 300);
 		bckcnt++;

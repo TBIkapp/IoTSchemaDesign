@@ -1,10 +1,10 @@
 # IoTSchemaDesign
 
-./mongod --dbpath ../../data/wt
+checkout the whole folder and run ./testrun.sh 
 
-./mongod --storageEngine mmapv1 --dbpath ../../data/mmapv1
+it will setup, run and clean for you all log and data files.
 
-./mongod --storageEngine inMemory --dbpath ../../data/inMemory
+results will be printed on the shell
 
-./mongo IoTTest IoTGenerator.js
- 
+The testrun will perform 1min, 10min and 1hour tests for MMAPv1, WiredTiger and WiredTiger inMemory (Enterprise)
+
