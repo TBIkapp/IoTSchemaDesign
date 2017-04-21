@@ -74,6 +74,9 @@ while (new Date() < ms){
 		simplecnt++;
 }
 print("simple schema count: " + simplecnt);
+printjson(db.stats());
+
+print("================");
 
 /*
 Bucket Schema Test
@@ -88,6 +91,9 @@ while (new Date() < ms){
 		bckcnt++;
 }
 print("50 bucket inserts: " + bckcnt);
+printjson(db.stats());
+
+print("================");
 
 print("100 bucket schema start test");
 db.IoTBucketCollection.remove({});
@@ -99,6 +105,9 @@ while (new Date() < ms){
 		bckcnt++;
 }
 print("100 bucket inserts: " + bckcnt);
+printjson(db.stats());
+
+print("================");
 
 print("200 bucket schema start test");
 db.IoTBucketCollection.remove({});
@@ -109,6 +118,9 @@ while (new Date() < ms){
 		bckcnt++;
 }
 print("200 bucket inserts: " + bckcnt);
+printjson(db.stats());
+
+print("================");
 
 print("300 bucket schema start test");
 db.IoTBucketCollection.remove({});
@@ -119,3 +131,6 @@ while (new Date() < ms){
 		bckcnt++;
 }
 print("300 bucket inserts: " + bckcnt);
+printjson(db.stats());
+
+print("================");
