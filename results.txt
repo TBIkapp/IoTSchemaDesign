@@ -1,0 +1,937 @@
+~/Google Drive/Articles/code(master ✗) ./testrun.sh
+++++ 1min test run ++++
+++ MMAPV1 Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 3230
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 176778
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 176793,
+	"avgObjSize" : 111.99963799471699,
+	"dataSize" : 19800752,
+	"storageSize" : 37818368,
+	"numExtents" : 11,
+	"indexes" : 6,
+	"indexSize" : 21609168,
+	"fileSize" : 201326592,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 303083
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 182855,
+	"avgObjSize" : 379.31458259276474,
+	"dataSize" : 69359568,
+	"storageSize" : 99811328,
+	"numExtents" : 20,
+	"indexes" : 6,
+	"indexSize" : 22917328,
+	"fileSize" : 201326592,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 295651
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 179750,
+	"avgObjSize" : 379.37544367176633,
+	"dataSize" : 68192736,
+	"storageSize" : 159551488,
+	"numExtents" : 22,
+	"indexes" : 6,
+	"indexSize" : 22246896,
+	"fileSize" : 469762048,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 260730
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 178097,
+	"avgObjSize" : 350.89291790428814,
+	"dataSize" : 62492976,
+	"storageSize" : 205885440,
+	"numExtents" : 23,
+	"indexes" : 6,
+	"indexSize" : 21870800,
+	"fileSize" : 469762048,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 233392
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 177571,
+	"avgObjSize" : 255.00677475488678,
+	"dataSize" : 45281808,
+	"storageSize" : 205885440,
+	"numExtents" : 23,
+	"indexes" : 6,
+	"indexSize" : 21764512,
+	"fileSize" : 469762048,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+++ WiredTiger Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 3362
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 163106
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 163106,
+	"avgObjSize" : 108.83919659607862,
+	"dataSize" : 17752326,
+	"storageSize" : 5378048,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 2912256,
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 252960
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 168166,
+	"avgObjSize" : 253.70357860685274,
+	"dataSize" : 42664316,
+	"storageSize" : 9732096,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 4284416,
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 241246
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 165519,
+	"avgObjSize" : 248.87844899981272,
+	"dataSize" : 41194112,
+	"storageSize" : 14774272,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 4378624,
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 209808
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 164156,
+	"avgObjSize" : 232.12712298057946,
+	"dataSize" : 38105060,
+	"storageSize" : 14827520,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 4378624,
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 185678
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 163725,
+	"avgObjSize" : 218.35825316842266,
+	"dataSize" : 35750705,
+	"storageSize" : 14860288,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 4272128,
+	"ok" : 1
+}
+================
+++ inMemory Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 3466
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 176249
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 176249,
+	"avgObjSize" : 108.83316784776083,
+	"dataSize" : 19181737,
+	"storageSize" : 19181737,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 8459952,
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 286162
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 181973,
+	"avgObjSize" : 260.2769092118061,
+	"dataSize" : 47363370,
+	"storageSize" : 47363370,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 8803392,
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 271115
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 178961,
+	"avgObjSize" : 254.37580254915875,
+	"dataSize" : 45523348,
+	"storageSize" : 45523348,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 8622672,
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 257251
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 177536,
+	"avgObjSize" : 248.59535530821918,
+	"dataSize" : 44134625,
+	"storageSize" : 44134625,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 8537172,
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 229761
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 177015,
+	"avgObjSize" : 234.1921701550716,
+	"dataSize" : 41455527,
+	"storageSize" : 41455527,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 8505912,
+	"ok" : 1
+}
+================
+++++ 10min test run ++++
+++ MMAPV1 Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 3549
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 1759004
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 1759019,
+	"avgObjSize" : 111.99996361608373,
+	"dataSize" : 197010064,
+	"storageSize" : 243335168,
+	"numExtents" : 16,
+	"indexes" : 6,
+	"indexSize" : 257380480,
+	"fileSize" : 1006632960,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 2840845
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 1815836,
+	"avgObjSize" : 364.320266808236,
+	"dataSize" : 661545856,
+	"storageSize" : 826339328,
+	"numExtents" : 32,
+	"indexes" : 6,
+	"indexSize" : 269619952,
+	"fileSize" : 2080374784,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 2747550
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 1786495,
+	"avgObjSize" : 362.00999163165864,
+	"dataSize" : 646729040,
+	"storageSize" : 1314656256,
+	"numExtents" : 34,
+	"indexes" : 6,
+	"indexSize" : 263291728,
+	"fileSize" : 2080374784,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 2486806
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 1771454,
+	"avgObjSize" : 341.10365835071076,
+	"dataSize" : 604249440,
+	"storageSize" : 1693364224,
+	"numExtents" : 35,
+	"indexes" : 6,
+	"indexSize" : 260021328,
+	"fileSize" : 4226809856,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 2289509
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 1766651,
+	"avgObjSize" : 253.0060142042769,
+	"dataSize" : 446973328,
+	"storageSize" : 1693364224,
+	"numExtents" : 35,
+	"indexes" : 6,
+	"indexSize" : 258958448,
+	"fileSize" : 4226809856,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+++ WiredTiger Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 4389
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 1651702
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1651702,
+	"avgObjSize" : 108.83284454459702,
+	"dataSize" : 179759427,
+	"storageSize" : 49946624,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 32382976,
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 2767409
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1707051,
+	"avgObjSize" : 264.21737604793293,
+	"dataSize" : 451032536,
+	"storageSize" : 99540992,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 36950016,
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 2393729
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1675640,
+	"avgObjSize" : 245.21870330142514,
+	"dataSize" : 410898268,
+	"storageSize" : 104660992,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 36368384,
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 1859219
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1660999,
+	"avgObjSize" : 216.79622082854956,
+	"dataSize" : 360098306,
+	"storageSize" : 102457344,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 36073472,
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 1684899
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1657319,
+	"avgObjSize" : 207.0189897056632,
+	"dataSize" : 343096505,
+	"storageSize" : 99139584,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 35975168,
+	"ok" : 1
+}
+================
+++ inMemory Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 5350
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 1627553
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1627553,
+	"avgObjSize" : 108.83235261770277,
+	"dataSize" : 177130422,
+	"storageSize" : 177130422,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 83005203,
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 2431974
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1676193,
+	"avgObjSize" : 248.56518073992672,
+	"dataSize" : 416643216,
+	"storageSize" : 416643216,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 85972243,
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 2778375
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1655337,
+	"avgObjSize" : 269.28114818916026,
+	"dataSize" : 445751048,
+	"storageSize" : 445751048,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 84700027,
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 2556224
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1640335,
+	"avgObjSize" : 258.2588837036337,
+	"dataSize" : 423631086,
+	"storageSize" : 423631086,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 83772123,
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 2178983
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 1634817,
+	"avgObjSize" : 237.560710464841,
+	"dataSize" : 388368288,
+	"storageSize" : 388368288,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 83448307,
+	"ok" : 1
+}
+================
+++++ 1hour test run ++++
+++ MMAPV1 Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 6161
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 9780261
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 9780276,
+	"avgObjSize" : 111.9999934562174,
+	"dataSize" : 1095390848,
+	"storageSize" : 1580171264,
+	"numExtents" : 22,
+	"indexes" : 6,
+	"indexSize" : 1464329776,
+	"fileSize" : 4226809856,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 15813743
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 10096551,
+	"avgObjSize" : 364.6052248931343,
+	"dataSize" : 3681255248,
+	"storageSize" : 4231659520,
+	"numExtents" : 43,
+	"indexes" : 6,
+	"indexSize" : 1532803776,
+	"fileSize" : 6373244928,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 15255663
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 9932833,
+	"avgObjSize" : 361.67281096943844,
+	"dataSize" : 3592435632,
+	"storageSize" : 8119496704,
+	"numExtents" : 46,
+	"indexes" : 6,
+	"indexSize" : 1497131888,
+	"fileSize" : 12812550144,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 13175187
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 9846152,
+	"avgObjSize" : 330.3789744460577,
+	"dataSize" : 3252961600,
+	"storageSize" : 10265923568,
+	"numExtents" : 47,
+	"indexes" : 6,
+	"indexSize" : 1478449728,
+	"fileSize" : 14958985216,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 11760291
+{
+	"db" : "IoTTest",
+	"collections" : 4,
+	"views" : 0,
+	"objects" : 9819477,
+	"avgObjSize" : 242.30435083253417,
+	"dataSize" : 2379302000,
+	"storageSize" : 10265923568,
+	"numExtents" : 47,
+	"indexes" : 6,
+	"indexSize" : 1472620240,
+	"fileSize" : 14958985216,
+	"nsSizeMB" : 16,
+	"extentFreeList" : {
+		"num" : 0,
+		"totalSize" : 0
+	},
+	"dataFileVersion" : {
+		"major" : 4,
+		"minor" : 22
+	},
+	"ok" : 1
+}
+================
+++ WiredTiger Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 11212
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 9878238
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 9878238,
+	"avgObjSize" : 108.66674998112012,
+	"dataSize" : 1073436019,
+	"storageSize" : 328749056,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 181227520,
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 16592923
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 10210097,
+	"avgObjSize" : 264.9104414972747,
+	"dataSize" : 2704761304,
+	"storageSize" : 608759808,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 188973056,
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 15251822
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 10030757,
+	"avgObjSize" : 254.49066097404213,
+	"dataSize" : 2552733979,
+	"storageSize" : 651063296,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 188493824,
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 13026801
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 9943373,
+	"avgObjSize" : 234.8141431484065,
+	"dataSize" : 2334844611,
+	"storageSize" : 648392704,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 183144448,
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 11096324
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 9915226,
+	"avgObjSize" : 216.09465916359343,
+	"dataSize" : 2142627383,
+	"storageSize" : 632291328,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 182464512,
+	"ok" : 1
+}
+================
+++ inMemory Test ++
+about to fork child process, waiting until server is ready for connections.
+forked process: 16058
+child process started successfully, parent exiting
+MongoDB shell version v3.4.3
+connecting to: mongodb://127.0.0.1:27017/IoTTest
+MongoDB server version: 3.4.3
+simple schema start test
+simple schema count: 10443085
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 10443085,
+	"avgObjSize" : 107.66617259171979,
+	"dataSize" : 1124366992,
+	"storageSize" : 1124366992,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 522154250,
+	"ok" : 1
+}
+================
+50 bucket schema start test
+50 bucket inserts: 17673837
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 10796562,
+	"avgObjSize" : 263.3756713479717,
+	"dataSize" : 2843551765,
+	"storageSize" : 2843551765,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 543716347,
+	"ok" : 1
+}
+================
+100 bucket schema start test
+100 bucket inserts: 16691916
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 10610005,
+	"avgObjSize" : 256.95611821106587,
+	"dataSize" : 2726305699,
+	"storageSize" : 2726305699,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 532503290,
+	"ok" : 1
+}
+================
+200 bucket schema start test
+200 bucket inserts: 14560569
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 10515888,
+	"avgObjSize" : 239.5970254723139,
+	"dataSize" : 2519575485,
+	"storageSize" : 2519575485,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 526668036,
+	"ok" : 1
+}
+================
+300 bucket schema start test
+300 bucket inserts: 13038107
+{
+	"db" : "IoTTest",
+	"collections" : 2,
+	"views" : 0,
+	"objects" : 10486546,
+	"avgObjSize" : 226.29519624478831,
+	"dataSize" : 2373054985,
+	"storageSize" : 2373054985,
+	"numExtents" : 0,
+	"indexes" : 6,
+	"indexSize" : 524848832,
+	"ok" : 1
+}
+================
