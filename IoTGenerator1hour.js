@@ -61,6 +61,7 @@ function myBucketDocumentLoop (sensor_id, bucketsize) {
 }
 
 var runtime = 60000 * 60;
+var scale = 1024 * 1024;
 /*
 Simple Schema Test
 */
@@ -74,7 +75,7 @@ while (new Date() < ms){
 		simplecnt++;
 }
 print("simple schema count: " + simplecnt);
-printjson(db.stats());
+printjson(db.stats(scale));
 
 print("================");
 
@@ -91,7 +92,7 @@ while (new Date() < ms){
 		bckcnt++;
 }
 print("50 bucket inserts: " + bckcnt);
-printjson(db.stats());
+printjson(db.stats(scale));
 
 print("================");
 
@@ -105,7 +106,7 @@ while (new Date() < ms){
 		bckcnt++;
 }
 print("100 bucket inserts: " + bckcnt);
-printjson(db.stats());
+printjson(db.stats(scale));
 
 print("================");
 
@@ -118,7 +119,7 @@ while (new Date() < ms){
 		bckcnt++;
 }
 print("200 bucket inserts: " + bckcnt);
-printjson(db.stats());
+printjson(db.stats(scale));
 
 print("================");
 
@@ -131,6 +132,6 @@ while (new Date() < ms){
 		bckcnt++;
 }
 print("300 bucket inserts: " + bckcnt);
-printjson(db.stats());
+printjson(db.stats(scale));
 
 print("================");
