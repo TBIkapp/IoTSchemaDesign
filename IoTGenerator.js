@@ -82,6 +82,20 @@ print("================");
 /*
 Bucket Schema Test
 */
+print("25 bucket schema start test");
+db.IoTBucketCollection.remove({});
+var bckcnt = 0;
+// run bucket test for 1 min
+var ms = new Date().getTime() + runtime;
+while (new Date() < ms){
+		myBucketDocumentLoop(Math.floor((Math.random() * 100) + 1), 25);
+		bckcnt++;
+}
+print("25 bucket inserts: " + bckcnt);
+printjson(db.stats(scale));
+
+print("================");
+
 print("50 bucket schema start test");
 db.IoTBucketCollection.remove({});
 var bckcnt = 0;
